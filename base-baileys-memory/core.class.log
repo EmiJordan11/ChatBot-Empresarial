@@ -1,0 +1,149 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492613613160@s.whatsapp.net',
+    fromMe: false,
+    id: '447BC6890C8F46F25B0E23A972A58AEB',
+    participant: undefined
+  },
+  messageTimestamp: 1719853478,
+  pushName: 'Emi Jordán',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5492613613160'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_702fe49f-f487-42dd-ad7b-f5f20834a554',
+  keyword: 'key_16f35782-b5a3-4f61-9983-acb863182174',
+  answer: 'Hola 😃, soy el asistente virtual de RST, que deseas hacer?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '07cf17d520dffe6b7eb511f4950f948e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a0429e6d-f0a0-467e-bfa4-0c242b2110c9',
+  keyword: 'ans_702fe49f-f487-42dd-ad7b-f5f20834a554',
+  answer: 'Seleccione el *numero de opción:*\n' +
+    '*1-* Ver horarios de atencion 🕒\n' +
+    '*2-* Preguntas frecuentes 🤔\n' +
+    '*3-* Canales de contacto 📞',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '63842b8831824cc4de253063574c9265'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492613613160@s.whatsapp.net',
+    fromMe: false,
+    id: 'F1FFD26DF816780405F3B95581691316',
+    participant: undefined
+  },
+  messageTimestamp: 1719853490,
+  pushName: 'Emi Jordán',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5492613613160'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5d56a4d7-cdba-45a4-aa19-f5a5a5a279af',
+  keyword: 'key_407ac7be-752f-4c92-96f7-1beec1d88129',
+  answer: '*Canales de contacto* 📞\n' +
+    '- Instagram: https://www.instagram.com/\n' +
+    '- Facebook: https://www.facebook.com/\n' +
+    '- Telefono: 2613613160\n' +
+    'Escriba *operador* para obtener medios de comunicacion con un operador ☎️👨👩',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '9550f98ebc48c12d5439838cd605e6e5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492613613160@s.whatsapp.net',
+    fromMe: false,
+    id: 'C00C892DA813CAB9B46F5BFB087CF66C',
+    participant: undefined
+  },
+  messageTimestamp: 1719853499,
+  pushName: 'Emi Jordán',
+  broadcast: false,
+  message: Message {
+    conversation: 'Operador',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Operador',
+  from: '5492613613160'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_994f1139-660f-4813-82b8-2ea442dc3c88',
+  keyword: 'key_77f083d2-acbf-42d0-bfc5-42588f38350e',
+  answer: 'Obteniendo datos del operador...',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f8cb6896843fea180381ea802091472b'
+}
